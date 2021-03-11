@@ -1,7 +1,7 @@
 ---
-title: "Sky1"
+title: "Install"
 author: "Kai Zheng"
-tags: ["tagA", "tagB"]
+tags: ["AI"]
 date: 2021-03-10T11:15:31+08:00
 draft: true
 ---
@@ -90,11 +90,3 @@ Verify the system has the correct kernel headers and development packages instal
 Download the NVIDIA CUDA Toolkit.
 Handle conflicting installation methods.
 
----
-
-新的GPU服务器环境配置--Ubuntu18.04+CUDA10.0+cuDNN7.6.5+TensorFlow2.0安装笔记
-@QI ZHANG · DEC 30, 2019 · 7 MIN READ
-
-第一次安装CUDA的过程简直抓狂，中间出现了很多次莫名其妙的bug，踩了很多坑。比如装好了CUDA重启后进不去桌面系统了，直接黑屏、比如鼠标键盘都不work了、再比如装好了却安装不了TensorFlow-GPU……看了一圈网上的安装教程，发现还是官方指南真香了~ 新年第一篇，分享一下我的Ubuntu 18.04 + CUDA 10.0 + cuDNN 7.6.5 + TensorFlow 2.0 安装笔记，希望可以帮助大家少踩坑。 整个安装流程大致是：安装显卡驱动 -> 安装CUDA -> 安装cuDNN -> 安装tensorflow-gpu并测试。
-
-<!--more-->

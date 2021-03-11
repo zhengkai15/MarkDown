@@ -7,5 +7,5 @@ weight: 50
 comments: false
 ---
 
-
-hahah
+Master of LZU
+Paleoclimate science.
