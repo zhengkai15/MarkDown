@@ -24,9 +24,9 @@ Validation loss: Customizing the validation loss in LightGBM requires defining a
 
 官方例子-LGBM中自定义log likelihood loss：
 
-# self-defined objective function
-# f(preds: array, train_data: Dataset) -> grad: array, hess: array
-# log likelihood loss
+self-defined objective function
+f(preds: array, train_data: Dataset) -> grad: array, hess: array
+log likelihood loss
 def loglikelihood(preds, train_data):
     labels = train_data.get_label()
     preds = 1. / (1. + np.exp(-preds))
@@ -34,9 +34,9 @@ def loglikelihood(preds, train_data):
     hess = preds * (1. - preds)
     return grad, hess
 
-# self-defined eval metric
-# f(preds: array, train_data: Dataset) -> name: string, eval_result: float, is_higher_better: bool
-# binary error
+self-defined eval metric
+f(preds: array, train_data: Dataset) -> name: string, eval_result: float, is_higher_better: bool
+binary error
 def binary_error(preds, train_data):
     labels = train_data.get_label()
     return 'error', np.mean(labels != (preds > 0.5)), False
