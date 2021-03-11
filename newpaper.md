@@ -1,5 +1,5 @@
 ---
-title: "网站正在建立 内容如有雷同马上撤回"
+title: "滑稽"
 author: "Kai Zheng"
 tags: ["poem"]
 date: 2021-03-10T11:16:31+08:00
