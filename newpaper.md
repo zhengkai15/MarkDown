@@ -13,21 +13,5 @@ draft: true
 
 
 ```diff
-brew install hugo # 安装hugo，其他平台类似，参考：<https://gohugo.io/getting-started/installing/>
 
-hugo version # 测试是否安装成功
-
-hugo new site myblog # 创建一个新站点myblog，会新建一个文件夹myblog，并在该文件夹中生成基础的网页配置模块。
-
-"""
-.
-├── archetypes
-├── assets
-├── config
-├── content
-├── data
-├── layouts
-├── static
-└── themes
-"""
 ```

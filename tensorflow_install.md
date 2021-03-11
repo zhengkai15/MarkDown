@@ -1,5 +1,5 @@
 ---
-title: "Install"
+title: "TensorFlow2.0 Install"
 author: "Kai Zheng"
 tags: ["AI"]
 date: 2021-03-10T11:15:31+08:00
