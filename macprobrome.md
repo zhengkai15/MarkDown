@@ -2,7 +2,7 @@
 title: "升级后的系统是macOS 10.15 (Catalina) ，安装cartopy"
 author: "Kai Zheng"
 tags: ["Cartopy"]
-date: 2021-03-10T11:15:31+08:00
+date: 2021-03-15T11:15:31+08:00
 draft: true
 ---
 

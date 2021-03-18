@@ -1,5 +1,5 @@
 ---
-title: "滑稽"
+title: "滑稽-poem"
 author: "Kai Zheng"
 tags: ["poem"]
 date: 2021-03-10T11:16:31+08:00

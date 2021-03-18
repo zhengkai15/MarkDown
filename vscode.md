@@ -1,7 +1,7 @@
 ---
 title: "My VScode  Extension"
 author: "Kai Zheng"
-tags: ["Cartopy"]
+tags: ["Vscode"]
 date: 2021-03-10T11:15:31+08:00
 draft: true
 ---
@@ -17,6 +17,7 @@ draft: true
 6、Remote-SSH
 7、vscode-icon
 8、VSCodeFileHeader
+9、NCL 还是不容sublime的 command + B
 
 ```
 
