@@ -18,7 +18,7 @@ draft: true
 7、vscode-icon
 8、VSCodeFileHeader
 9、NCL 还是不容sublime的 command + B
-
+10、Remote Development 远程连接，加debug
 ```
 
 
